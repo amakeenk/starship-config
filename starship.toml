@@ -37,5 +37,5 @@ format = "([$all_status$ahead_behind]($style) )"
 [character]
 disabled = false
 success_symbol = "[➜](bold green)"
-error_symbol = "[✗](bold red) "
+error_symbol = "[✗](bold red)"
 format = "$symbol "
