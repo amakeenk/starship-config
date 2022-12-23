@@ -1,5 +1,6 @@
 format = """
 $time\
+$cmd_duration\
 $username\
 $directory\
 $git_branch\
@@ -12,6 +13,11 @@ add_newline = false
 [time]
 disabled = false
 format = "[$time]($style) "
+style = "bold purple"
+
+[cmd_duration]
+min_time = 500
+format = "[$duration]($style) "
 style = "bold purple"
 
 [username]
