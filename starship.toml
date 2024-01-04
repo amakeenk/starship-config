@@ -1,5 +1,6 @@
 format = """
 $time\
+$hostname\
 $cmd_duration\
 $username\
 $directory\
@@ -14,6 +15,11 @@ add_newline = false
 disabled = false
 format = "[$time]($style) "
 style = "bold purple"
+
+[hostname]
+ssh_only = true
+trim_at = ''
+format = 'on [$hostname](bold red) '
 
 [cmd_duration]
 min_time = 500
