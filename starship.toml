@@ -19,7 +19,7 @@ style = "bold purple"
 [hostname]
 ssh_only = true
 trim_at = ''
-format = 'on [$hostname](bold red) '
+format = 'ssh on [$hostname](bold red) '
 
 [cmd_duration]
 min_time = 500
